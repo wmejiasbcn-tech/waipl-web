@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAIPL — Grafo 3D</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0f;
+      color: #e8e8f0;
+      font-family: system-ui, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid #1e1e2a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header a {
+      color: #a78bfa;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    #graph-container {
+      flex: 1;
+      width: 100%;
+      position: relative;
+    }
+    .placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #6b6b80;
+      text-align: center;
+      padding: 2rem;
+    }
+    .placeholder h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.6rem;
+      color: #c4b5fd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>WAIPL · Grafo</strong>
+    <a href="/">← Volver</a>
+  </header>
+
+  <div id="graph-container">
+    <div class="placeholder">
+      <h2>Grafo 3D listo</h2>
+      <p>Aquí se cargará la visualización de Graphify<br>
+      (3d-force-graph / experiencias inmersivas)</p>
+    </div>
+  </div>
+</body>
+</html>
