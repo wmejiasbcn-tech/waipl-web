@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAIPL — Will-AI Project Lab</title>
+  <meta name="description" content="Ecosistema colaborativo humano-IA para la hibridación, equidad e innovación." />
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --text: #e8e8f0;
+      --accent: #7c5cff;
+      --muted: #8b8ba3;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.6rem;
+      background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 520px;
+      margin-bottom: 2.5rem;
+    }
+    .links {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.7rem 1.4rem;
+      border: 1px solid rgba(124, 92, 255, 0.35);
+      border-radius: 8px;
+      transition: all 0.2s ease;
+    }
+    a:hover {
+      background: rgba(124, 92, 255, 0.12);
+      border-color: var(--accent);
+    }
+    footer {
+      position: absolute;
+      bottom: 1.8rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <h1>WAIPL</h1>
+  <p class="subtitle">
+    Will-AI Project Lab<br>
+    Ecosistema colaborativo humano-IA
+  </p>
+
+  <div class="links">
+    <a href="/graph.html">Ver Grafo 3D</a>
+    <a href="https://github.com/wmejiasbcn-tech/Will-AI-Project-Lab" target="_blank">Repositorio</a>
+  </div>
+
+  <footer>
+    waipl.dev · 2026
+  </footer>
+</body>
+</html>
